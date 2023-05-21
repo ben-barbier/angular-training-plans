@@ -10,6 +10,8 @@ Durant cette formation Angular Avancé, nous plongerons dans les concepts avanc�
 
 La **formation Angular Avancé** est destinée à des **développeur·se·s ayant déjà pratiqué le framework sur un projet** et souhaitant comprendre le rôle des mécanismes internes du framework. L'objectif est également de structurer le tout à travers un ensemble de **bonnes pratiques**, de **retours d'expérience** et de tips afin de rendre les applications réalisées maintenables et évolutives.
 
+Lors de cette formation, nous traiterons également les changements apportés par les dernières évolutions majeures d'Angular. Vous découvrirez en détail les concepts de signaux, d'hydration et d'éléments `standalones`. Vous serez également amenés à utiliser esbuild et Vite pour réduire les temps de compilation et améliorer encore votre expérience de développement.
+
 Cette formation, orientée **pratique**, permettra à chacun des participant·e·s de produire une application Angular sur la base d'une API REST existante. L'application réalisée étant opérationnelle, elle pourra servir de modèle pour leurs projets à venir.
 
 Si vous débutez avec le framework Angular, jetez un œil à notre [formation Angular](https://www.humancoders.com/formations/angular) !
@@ -55,11 +57,19 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Gestion des exceptions
 * De l'API à la vue avec le pipe Async
 
-##### Zone & Change detection strategies
+##### Zone & Change detection strategies (legacy)
 
 * Principe et utilité
 * État de la vue (component)
 * Propagation du changement
+
+##### Signaux
+
+* Présentation du nouveau système de rendering
+* Writable signals, Computed signals & Effects
+
+* ***Mise en pratique***
+- _Grace aux signaux, optimiser et simplifier les mécanismes de rendering de l'application développée_
 
 ##### PWA
 
@@ -74,8 +84,9 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 
 * Améliorer les performances de démarrage
 * Route integration : loadChildren
-* Preloading
+* Stratégies de préchargement des modules (Preloading)
 * Modules partagés
+* Standalone components
 
 ***Mise en pratique***
 - _Initialiser et configurer un projet Angular scalable avec [angular material](https://material.angular.io/), [prettier](https://prettier.io/), [eslint](https://eslint.org/), [jest](https://jestjs.io/fr/), [esbuild](https://esbuild.github.io/) et [vite](https://vitejs.dev/)_
@@ -96,7 +107,6 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 
 ***Mise en pratique***
 - _En utilisant les concepts et opérateurs [RxJS](https://rxjs.dev/) présentés, créer un panier et intégrer celui-ci dans plusieurs pages de l'application_
-- _Grace aux signaux, optimiser et simplifier les mécanismes de rendering de l'application développée_
 
 #### 2. Écosystème
 
@@ -113,23 +123,20 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Effects : Gestion des actions asynchrones
 * Entity : Performance et volumétrie
 
-##### Angular Universal
+***Mise en pratique***
+- _Implémenter un state management avec [NGRX](https://ngrx.io/)_
 
-* Introduction
+##### Angular Universal (SSR)
+
+* Introduction au server-side rendering avec Angular Universal
+* Vers le futur du SSR avec l'"hydration"
 
 ##### Internationalisation (aka I18N)
 
 * Angular I18N standard
-  * i18n marker
-  * Singulier / pluriel & select
-  * ng-xi18n
-  * AOT gotchas
 * @ngx-translate
   * Concept de la librairie
   * Chargement à chaud des traductions
-
-***Mise en pratique***
-- _Implémenter un state management avec [NGRX](https://ngrx.io/)_
 
 # Supports pédagogiques
 
