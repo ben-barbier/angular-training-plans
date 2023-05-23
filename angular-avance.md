@@ -6,17 +6,17 @@ Angular Avancé
 
 **Angular** est un framework de développement d'applications web porté par Google. Sans doute le plus polyvalent et le plus complet des frameworks actuels, il offre une expérience de développement sans comparaison.
 
-Durant cette formation Angular Avancé, nous plongerons dans les concepts avancés (zones, lazy loading, i18n strategies, ...) d'**Angular** et découvrirons son écosystème (RxJS, @ngrx, material, PWA, ...). Cette formation porte sur la **dernière version** majeure du framework de Google (Angular 16).
+Durant cette formation Angular Avancé, nous plongerons dans les concepts avancés (zones, lazy loading, i18n strategies, ...) d'**Angular** et découvrirons son écosystème (RxJS, NgRx, material, PWA, ...). Cette formation porte sur la **dernière version** majeure du framework de Google (Angular 16).
 
 La **formation Angular Avancé** est destinée à des **développeur·se·s ayant déjà pratiqué le framework sur un projet** et souhaitant comprendre le rôle des mécanismes internes du framework. L'objectif est également de structurer le tout à travers un ensemble de **bonnes pratiques**, de **retours d'expérience** et de tips afin de rendre les applications réalisées maintenables et évolutives.
 
-Lors de cette formation, nous traiterons également les changements apportés par les dernières évolutions majeures d'Angular. Vous découvrirez en détail les concepts de signaux, d'hydration et d'éléments `standalones`. Vous serez également amenés à utiliser esbuild et Vite pour réduire les temps de compilation et améliorer encore votre expérience de développement.
+Lors de cette formation, nous traiterons également les changements apportés par les dernières évolutions majeures d'Angular. Vous découvrirez en détail les concepts de signaux, d'hydration et d'éléments `standalones`. Vous découvrirez également comment utiliser `esbuild` et `Vite` pour réduire les temps de compilation et améliorer encore votre expérience de développement.
 
 Cette formation, orientée **pratique**, permettra à chacun des participant·e·s de produire une application Angular sur la base d'une API REST existante. L'application réalisée étant opérationnelle, elle pourra servir de modèle pour leurs projets à venir.
 
 Si vous débutez avec le framework Angular, jetez un œil à notre [formation Angular](https://www.humancoders.com/formations/angular) !
 
-Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez un œil à notre [formation RxJS](https://www.humancoders.com/formations/rxjs). Cette dernière couvre toutes les fonctions et opérateurs RxJS qui permettent de créer, combiner et transformer des Observables.
+Enfin, pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez un œil à notre [formation RxJS](https://www.humancoders.com/formations/rxjs). Cette dernière couvre toutes les fonctions et opérateurs RxJS qui permettent de créer, combiner et transformer des Observables.
 
 
 # Objectifs pédagogiques
@@ -31,7 +31,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 - Faire évoluer l'application en y intégrant plusieurs pages, un template complet et l'internationalisation.
 - En utilisant les concepts et opérateurs RxJS présentés, créer un panier et intégrer celui-ci dans plusieurs pages de l'application.
 - Grace aux signaux, optimiser et simplifier les mécanismes de rendering de l'application développée.
-- Implémenter un state management avec NGRX
+- Implémenter un state management avec NgRx
 
 # Pré-requis
 
@@ -56,6 +56,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Opérateurs de combinaison
 * Gestion des exceptions
 * De l'API à la vue avec le pipe Async
+* Cycle de vie des observables et techniques de clotures
 
 ##### Zone & Change detection strategies (legacy)
 
@@ -68,7 +69,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Présentation du nouveau système de rendering
 * Writable signals, Computed signals & Effects
 
-* ***Mise en pratique***
+***Mise en pratique***
 - _Grace aux signaux, optimiser et simplifier les mécanismes de rendering de l'application développée_
 
 ##### PWA
@@ -83,7 +84,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 ##### Lazy Loading & Module architecture
 
 * Améliorer les performances de démarrage
-* Route integration : loadChildren
+* Route integration : loadChildren & loadComponent
 * Stratégies de préchargement des modules (Preloading)
 * Modules partagés
 * Standalone components
@@ -113,7 +114,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 ##### Angular Material
 
 * Configuration et theming
-* Étude et mise en oeuvre de quelques composants
+* Étude et mise en œuvre de plusieurs composants
 * Material & CDK
 
 ##### Le "State Management Pattern" avec NgRx
@@ -122,9 +123,11 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Store : Reducers & Actions par la pratique
 * Effects : Gestion des actions asynchrones
 * Entity : Performance et volumétrie
+* NgRx et les signaux : Exemple d'utilisation
+* Architecture : Implémentation du design pattern `Facade` avec NgRx
 
 ***Mise en pratique***
-- _Implémenter un state management avec [NGRX](https://ngrx.io/)_
+- _Implémenter un state management avec [NgRx](https://ngrx.io/)_
 
 ##### Angular Universal (SSR)
 
