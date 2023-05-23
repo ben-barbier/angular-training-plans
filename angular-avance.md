@@ -10,7 +10,7 @@ Durant cette formation Angular Avancé, nous plongerons dans les concepts avanc�
 
 La **formation Angular Avancé** est destinée à des **développeur·se·s ayant déjà pratiqué le framework sur un projet** et souhaitant comprendre le rôle des mécanismes internes du framework. L'objectif est également de structurer le tout à travers un ensemble de **bonnes pratiques**, de **retours d'expérience** et de tips afin de rendre les applications réalisées maintenables et évolutives.
 
-Lors de cette formation, nous traiterons également les changements apportés par les dernières évolutions majeures d'Angular. Vous découvrirez en détail les concepts de signaux, d'hydration et d'éléments `standalones`. Vous serez également amenés à utiliser esbuild et Vite pour réduire les temps de compilation et améliorer encore votre expérience de développement.
+Lors de cette formation, nous traiterons également les changements apportés par les dernières évolutions majeures d'Angular. Vous découvrirez en détail les concepts de signaux, d'hydration et d'éléments `standalones`. Vous découvrirez également comment utiliser `esbuild` et `Vite` pour réduire les temps de compilation et améliorer encore votre expérience de développement.
 
 Cette formation, orientée **pratique**, permettra à chacun des participant·e·s de produire une application Angular sur la base d'une API REST existante. L'application réalisée étant opérationnelle, elle pourra servir de modèle pour leurs projets à venir.
 
@@ -56,6 +56,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Opérateurs de combinaison
 * Gestion des exceptions
 * De l'API à la vue avec le pipe Async
+* Cycle de vie des observables et techniques de clotures
 
 ##### Zone & Change detection strategies (legacy)
 
@@ -83,7 +84,7 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 ##### Lazy Loading & Module architecture
 
 * Améliorer les performances de démarrage
-* Route integration : loadChildren
+* Route integration : loadChildren & loadComponent
 * Stratégies de préchargement des modules (Preloading)
 * Modules partagés
 * Standalone components
@@ -122,6 +123,8 @@ Enfin pour **approfondir les fonctionnalités offertes par la librairie RxJS**, 
 * Store : Reducers & Actions par la pratique
 * Effects : Gestion des actions asynchrones
 * Entity : Performance et volumétrie
+* NgRx et les signaux : Exemple d'utilisation
+* Architecture : Implémentation du design pattern `Facade` avec NgRx
 
 ***Mise en pratique***
 - _Implémenter un state management avec [NGRX](https://ngrx.io/)_
