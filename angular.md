@@ -4,13 +4,16 @@ Cette formation Angular a pour but de vous apprendre à **concevoir des applicat
 
 La formation Angular porte sur la dernière version majeure du framework de Google (Angular 16). Conçu pour créer des applications web complexes, Angular est une réécriture complète de sa version 1 AngularJS.
 
-Cette version s'appuie sur des concepts et outils ultra modernes tels que ES2015, TypeScript, les Web Components et la programmation réactive.
-
 Dans cette formation Angular, vous apprendrez les **notions de base** et les **bonnes pratiques** pour créer vos propres composants Angular et produire des applications **robustes** et **efficaces**. Nous mettrons également l'accent sur les aspects réactifs et fonctionnels de ce framework à travers la [librairie RxJS](https://angular.io/guide/rx-library).
 
 Cette **formation Angular** est destinée à des **développeur·se·s familiers avec le web et JavaScript** qui souhaitent apprendre à développer des applications Angular. Le tout, en respectant un ensemble de bonnes pratiques, de retours d'expérience et de conseils afin de rendre les applications réalisées maintenables et évolutives.
 
-La formation est découpée entre des moments de **théorie** et de **pratique** pour permettre à chacun des participant·e·s de créer une application Angular sur la base d'une API REST existante. À l'issue de la formation, l'application réalisée sera opérationnelle et pourra être utilisée **comme modèle pour des projets à venir**.
+Grâce au **projet « fil rouge » de création d'une application Angular de gestion de produits**, vous serez acteur·rice·s de la formation.
+Vous apprendrez la méthodologie pour **concevoir une application Angular** et utiliser les approches les plus pertinentes pour chacune des problématiques que vous rencontrerez.
+La formation est découpée entre des moments de **théorie** et de **pratique** pour permettre à chacun des participant·e·s de créer une application Angular sur la base d'une API REST existante.
+À l'issue de la formation, l'application réalisée sera opérationnelle et pourra être utilisée **comme modèle pour des projets à venir**.
+Au sein de ce projet, vous aurez la charge de créer les pages nécessaires à la gestion de produits : création, modification, suppression, liste, détail, administration, etc ainsi que la création d'un "panier" utilisateur.
+Lors de ce projet, vous mettrez en pratique les notions abordées, de la création de composants à la mise en place de tests unitaires, en passant par la connexion à une API REST.
 
 Pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez un œil à notre [formation RxJS](https://www.humancoders.com/formations/rxjs). Cette dernière couvre toutes les fonctions et opérateurs RxJS qui permettent de créer, combiner et transformer des Observables.
 
@@ -33,79 +36,46 @@ Pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez 
 
 #### Jour 1 : De la théorie aux 1ers composants Angular
 
-##### Installation / introduction
+- Rappeler les concepts de base du JavaScript moderne et du Typescript.
+- Comprendre la création et l'évolution du framework Angular et de son écosystème.
+- Apprendre à créer des composants Angular et à les utiliser.
+- Comprendre le fonctionnement du système de templating d'Angular.
+- Apprendre à utiliser les directives pour manipuler le DOM.
+- Faire communiquer les composants entre eux.
+- Apprendre à interagir avec une API REST via les services Angular.
 
-- Philosophie du framework
-- Installation minimale
-- Ecosystème
+***Mises en pratique :***
+- Création du **projet « fil rouge »**  grâce au CLI d'Angular.
+- Création des premiers composants de l'application au sein de la page de listing des produits.
+- Alimentation de la page de listing des produits avec des données issues de l'API REST fournie.
 
-##### TypeScript et ES2015
+#### Jour 2 : Intégration de RxJS et gestion des données
 
-- Types
-- Classes
-- Modules
-- Promesses
-- Décorateurs
-- Outils
+- Présentation de la programmation réactive fonctionnelle et son intégration dans Angular via la librairie RxJS.
+- Création de services pour la gestion et le partage des données.
+- Découvrir comment utiliser les pipes pour transformer des données.
+- Comprendre le fonctionnement des formulaires pilotés par le template et des formulaires réactifs.
 
-##### Composants
-
-- Définition
-- Décorateur
-- Vue
-- Contrôleur
-- Composants natifs
-- Cycle de vie
-
-#### Jour 2 : Intégration de RxJS et des services associés
-
-##### Reactive Programming
-
-- Concept
-- RxJS : Approche approfondie d'un framework au coeur d'Angular
-
-##### Services
-
-- Créer un service
-- Injection de service
-
-##### Pipes
-
-- Pipes natifs
-- Écrire un pipe
-
-##### Formulaires
-
-- Contrôles
-- Validateurs
-- Observateurs
-- ngModel
+***Mises en pratique :***
+- Manipulation des données issues de l'API REST via les opérateurs RxJS.
+- Création du panier utilisateur du **projet « fil rouge »**.
+- Implémentation d'un formulaire de création d'un produit avec contrôles de saisie et validation.
 
 #### Jour 3 : Amélioration, évolution et scalabilité
 
-##### Service HTTP
+- Comprendre le fonctionnement du routeur Angular, des guards et des resolvers.
+- Apprendre à tester notre application gr^ce aux tests unitaires avec Karma, Jasmine et Jest.
+- Présentation du concept de PWA et de son intégration dans Angular avec Angular Universal.
+- Partage de bonnes pratiques et de retours d'expérience sur la conception d'applications Angular.
 
-- Communication avec une API
-- Options
-- De l'API REST à la vue avec le pipe async
-
-##### Routeur
-
-- Principe
-- Composant de route
-- Paramètres
-
-##### Tests
-
-- Karma et Jasmine
-- Injection de dépendance
-
-##### Concepts avancés
-
-- PWA : gestion simplifiée des caches par Angular
-- Injection de dépendance avancée
-- Animations
+***Mises en pratique :***
+- Création du menu du **projet « fil rouge »**.
+- Séparation du listing des produits et de création de produit dans différentes pages.
+- Création de la page d'administration des produits avec une gestion des droits d'accès.
+- Développement de tests unitaires sur des règles métier de l'application.
 
 # Supports pédagogiques
 
 - https://angular.io/docs
+- https://www.typescriptlang.org/fr/
+- https://rxjs.dev/
