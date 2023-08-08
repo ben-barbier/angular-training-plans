@@ -57,6 +57,11 @@ Pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez 
 - Composants natifs
 - Cycle de vie
 
+***Mises en pratique :***
+- Création d'un projet Angular grâce au CLI.
+- Création des premiers composants de l'application au sein d'une page de test.
+- Mises en pratique des concepts de base des composants et de leurs cycles de vie.
+
 #### Jour 2 : Intégration de RxJS et des services associés
 
 ##### Reactive Programming
@@ -80,6 +85,11 @@ Pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez 
 - Validateurs
 - Observateurs
 - ngModel
+
+***Mises en pratique :***
+- Manipulation de données structurées avec la programmation réactive fonctionnelle et les opérateurs RxJS.
+- Création et utilisation d'un pipe.
+- Mise en place d'un formulaire d'ajout d'élément avec contrôles de saisie et validation.
 
 #### Jour 3 : Amélioration, évolution et scalabilité
 
@@ -105,6 +115,12 @@ Pour **approfondir les fonctionnalités offertes par la librairie RxJS**, jetez 
 - PWA : gestion simplifiée des caches par Angular
 - Injection de dépendance avancée
 - Animations
+
+***Mises en pratique :***
+- Création d'un menu et de nouvelles pages configurées grâce au router d'Angular.
+- Création d'un panier avec des informations partagées à travers toute l'application.
+- Connection de l'application à une API REST (CRUD).
+- Création de tests unitaires sur des règles métier de l'application.
 
 # Supports pédagogiques
 
